@@ -1,0 +1,129 @@
+/* universal selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* main body of page */
+body {
+    background-color: #d9dcd6;
+}
+/* main header at the top of the page */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* indicates text size and display for h1 element */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* isolates "seo" in the h1 element to change color */
+header h1 span {
+    color: #d9dcd6;
+}
+/* indicates the size and positioning of the top navigation */
+nav {
+    padding-top: 1px;
+    margin-right: 5px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 20px;
+}
+/* indicates the text positioning and margins for the unordered list */
+header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* indicates the color for the underorder list */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* indicates the text size for the paragraph element */
+p {
+    font-size: 16px;
+}
+/*This class indicates the dimensions of the large image underneath the header and navigation  */
+.mainpic {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* This indicates the positioning, size, and margins for the elements in the main */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* This indicates the margins, padding, size, fonts and font color for the main section */
+main section {
+    background-color: #0072bb;
+    margin-bottom: 20px;
+    padding: 50px;
+    color: #ffffff;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+/* This indcates the margin and text size for the h2 element under main section */
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* This restricts the main section image to 200px max  */
+main section img { 
+    max-height: 200px;
+}
+/* This tells the first and third in the main section to move to the left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* This tells the second in the main section to move to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* This class controls the margins, padding, positioning, size, font and color of the sidebar information  */
+.sidebar {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both; 
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* This indicates the margins and color of the elements in the sidebar section */
+.sidebar section {
+    margin-bottom: 32px;
+    color: #ffffff 
+}
+/* This indicates the margins and alignment of the h3 element in the sidebar class section */
+.sidebar section h3{ 
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* This indicates the image size and margins of the images between the texts in the sidebar class */
+.sidebar section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* This indicates the alignment and placement of the footer section. */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* This controls the text size of the footer font */
+footer h2 {
+    font-size: 20px;
+}
